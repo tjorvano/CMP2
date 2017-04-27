@@ -1,0 +1,2 @@
+custom post type -> zelf schrijven
+Metabox -> mag plug-in zijn

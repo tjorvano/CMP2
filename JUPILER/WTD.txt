@@ -1,0 +1,18 @@
+formulier: Contact opnemen
+Custom Theme
+	2 sidebar locations: header & footer
+	2 menu locations: header & footer
+	customlogo: zelf fixen
+	customheader: zelf fixen
+	custom slogan: GRENZELOOS BIER PLEZIER	
+	Favicon: kleine versie van ons logo
+	images: internet
+	gebruik template parts: stukskes uit andere templates halen		
+	404 error pagina: Iets fucking geniaal
+	CPT + template: Template maken voor iedere soort post
+	Theme Definition + Theme screenshot: zelf fixen
+Frontoffice - gebruiker
+	Home: grote afbeelding rechts met aan de linkerkant 'laatste nieuws' fzo
+	Blog: Aankondiging, eerst verkocht, post waar we staan deze zomer, van fuiven, reclamecampagne, ...
+	wedstrijd: win een bak bier
+	
