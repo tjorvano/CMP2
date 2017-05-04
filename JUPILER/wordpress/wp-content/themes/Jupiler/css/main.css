@@ -1,0 +1,585 @@
+/* ============
+    FONTS
+   ============ */
+
+@font-face {
+    font-family: ThinDesign;
+    src: url(../fonts/Thin_Design.ttf);
+}
+
+@font-face {
+    font-family: GeoSansLight;
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: Existence-Light;
+    src: url(../fonts/Existence-Light.ttf);
+}
+
+@font-face {
+    font-family: Biko;
+    src: url(../fonts/Biko_Regular.otf);
+}
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+html a {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+html a:hover {
+    color: #DE1B1B;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+#logo {
+    margin-top: 10px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    position: relative;
+    border-bottom: 20px solid #DE1B1B;
+}
+
+.man {
+    background: #2B2B2B;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #DE1B1B;
+    border-top: 20px solid #DE1B1B;
+}
+
+.main article {
+    -webkit-box-shadow: 0 5px 10px #000;
+    -moz-box-shadow: 0 5px 10px #000;
+    box-shadow: 0 5px 10px #000;
+    background-color: #F6F6F6;
+    color: #2B2B2B;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #F6F6F6;
+}
+
+.footer-container .footer-menu ul li a{
+    color: #2B2B2B;
+}
+/*
+.heading {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+}
+*/
+.title {
+    color: #2B2B2B;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    font-family: Existence-Light;
+}
+
+#menu-footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    list-style-type: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #2B2B2B;
+}
+
+#menu-footer a {
+    color: #2B2B2B;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+#menu-footer a:hover {
+    color: #DE1B1B;
+}
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+
+nav {
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #2B2B2B;
+}
+
+
+
+
+
+nav a:hover {
+    color: #DE1B1B;
+}
+
+nav a:active {
+    color: #DE1B1B;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article {
+    border: solid 5px #2B2B2B;
+    padding: 10px;
+}
+.main article h1 {
+    font-size: 4em;
+    font-family: GeoSansLight;
+    font-style: regular;
+}
+
+.main aside {
+    color: #2B2B2B;
+    padding: 0 2% 2px;
+    font-family: Biko;
+}
+
+.footer-container footer {
+    color: #2B2B2B;
+    padding: 20px 0;
+}
+
+.logosettings {
+    margin-top: 20px;
+    height: 9rem;
+    width: 9rem;
+}
+
+.header-container {
+    background: url("../img/background.jpg");
+}
+
+html {
+    background: url("../img/background2.jpg");
+}
+
+.pagetitle {
+    color: #DE1B1B;
+    font-size: 3rem;
+    width: 100%;
+    float: right;
+    font-family: Existence-Light;
+}
+
+.pagetitle_article {
+    color: #DE1B1B;
+    font-size: 2rem;
+    width: 100%;
+    float: right;
+    font-family: Existence-Light;
+}
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 0px) {
+    .header-container{
+        text-align: center;
+    }
+
+    .main article {
+        margin-top: 5rem;
+    }
+
+    .title {
+        font-size: xx-large;
+    }
+
+    .main aside {
+        margin-top: 1rem;
+    }
+
+    .main article h1 {
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    .header-container{
+        text-align: center;
+    }
+
+    nav a {
+        float: left;
+        margin: 0 1.7%;
+        text-decoration: none;
+        transition: color 0.5s ease;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+    .main article {
+        margin-top: 5rem;
+    }
+
+
+    .title {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #000;
+           -moz-box-shadow: 0 5px 10px #000;
+                box-shadow: 0 5px 10px #000;
+    }
+
+    .main article {
+        -webkit-box-shadow: 0 5px 10px #000;
+        -moz-box-shadow: 0 5px 10px #000;
+        box-shadow: 0 5px 10px #000;
+        background-color: #F6F6F6;
+        color: #2B2B2B;
+        font-family: Biko;
+        margin-top: 0rem;
+    }
+
+
+    .header-container{
+        text-align: center;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+        margin-top: 2rem;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main aside {
+        margin-top: 0rem;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 70%;
+    }
+
+    .main aside {
+        float: right;
+        width: 20%;
+    }
+}
+
+@media only screen and (min)
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.fixed {
+    position: absolute;
+    margin-left: 65%;
+}

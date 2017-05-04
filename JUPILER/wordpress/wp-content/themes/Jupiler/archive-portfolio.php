@@ -1,9 +1,9 @@
+
 <?php get_header(); ?>
 
     <div class="main-container">
         <div class="main wrapper clearfix">
-
-            <?php the_title('<h1 class="pagetitle_article">', '</h1>'); ?>
+            <h1 class="pagetitle_article"><?php the_title(); ?></h1>
 
             <?php
             if(have_posts())
@@ -13,7 +13,7 @@
                     the_post();
                     echo '<article>';
                     //Print the title and the content of the current post
-                    the_title('<h2 class="pagetitle_article">', '</h2>');
+                    the_title('<h1 class="pagetitle_article">', '</h1>');
                     the_excerpt();
                     echo '<a href="' . get_permalink() . '">Lees meer...</a>';
                     echo '</article>';
@@ -22,9 +22,10 @@
             }
             else
             {
-                echo 'Er is geen inhoud gevonden';
+                echo 'No content available';
             }
             ?>
+
 
             <aside class="fixed">
                 <?php dynamic_sidebar( 'primary-sidebar' ); ?>
@@ -34,3 +35,7 @@
     </div> <!-- #main-container -->
 
 <?php get_footer(); ?>
+
+
+
+
