@@ -3,7 +3,6 @@
     <div class="main-container">
         <div class="main wrapper clearfix">
 
-            <?php the_title('<h1 class="pagetitle_article">', '</h1>'); ?>
 
             <?php
             if(have_posts())

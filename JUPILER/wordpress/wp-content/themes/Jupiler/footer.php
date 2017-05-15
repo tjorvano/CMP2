@@ -1,9 +1,8 @@
 <div class="footer-container">
     <footer class="wrapper">
-        <a href="<?php bloginfo('rss2_url'); ?>" target="_blank" class="footer-menu"><i class="fa fa-rss fa-2x" aria-hidden="true"> </i>Rss-feed</a>
+        <a href="<?php bloginfo('rss2_url'); ?>" target="_blank" class="footer-menu"><i class="fa fa-rss fa-2x" aria-hidden="true"> </i>Sociale media</a>
         <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 
-        <?php echo do_shortcode("[smbtoolbar]"); ?>
     </footer>
 </div>
 

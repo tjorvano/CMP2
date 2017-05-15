@@ -32,7 +32,7 @@
     <header class="wrapper clearfix">
         <div class="heading">
         <a href="<?php bloginfo('template_directory') ?>"><img src="<?php bloginfo('template_directory') ?>/img/logo.png" class="logosettings"></a>
-        <h1 class="title">MATHIAS NOTAERT</h1>
+        <h1 class="title">Jupiler 0,0%</h1>
 
         </div>
         <nav>

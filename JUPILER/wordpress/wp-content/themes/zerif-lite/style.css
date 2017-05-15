@@ -2938,7 +2938,7 @@ width: -webkit-calc(100% / 4);
 	height: 73px;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 3px solid #f6f6f6;
+	border: 3px solid rgba(242, 243, 244, 0.95);
 }
 .feedback-box .client-image img, .testimonial .widget_zerif_testim-widget .client-image img {
 	width:100%;

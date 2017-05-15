@@ -2017,7 +2017,7 @@ function get_theme_starter_content() {
 			),
 			'link_facebook' => array(
 				'title' => _x( 'Facebook', 'Theme starter content' ),
-				'url' => 'https://www.facebook.com/wordpress',
+				'url' => 'https://www.facebook.com/jupiler',
 			),
 			'link_foursquare' => array(
 				'title' => _x( 'Foursquare', 'Theme starter content' ),
@@ -2041,7 +2041,7 @@ function get_theme_starter_content() {
 			),
 			'link_twitter' => array(
 				'title' => _x( 'Twitter', 'Theme starter content' ),
-				'url' => 'https://twitter.com/wordpress',
+				'url' => 'https://twitter.com/jupiler',
 			),
 			'link_yelp' => array(
 				'title' => _x( 'Yelp', 'Theme starter content' ),

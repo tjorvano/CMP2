@@ -1,60 +1,58 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
-
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
-
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-
-        @media only screen and (max-width: 280px) {
-
-            body, p {
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-
-        }
-
-    </style>
+<title>404</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+body{
+	font-family: Gamer;
+    background: rgb(242, 243, 244);
+}	
+.wrap{
+	margin:0 auto;
+	width:1000px;
+}
+	
+.logo h1{
+	font-size:200px;
+	text-align:center;
+	margin-bottom:1px;
+	text-shadow:1px 1px 6px #fff;
+    color: #2B2B2B;
+}	
+.logo p{
+	color:rgb(160, 30, 36);
+	font-size:20px;
+	margin-top:1px;
+	text-align:center;
+}	
+.logo p span{
+	color:lightgreen;
+}	
+.sub a{
+	color:white;
+	background:rgb(160, 30, 36);
+	text-decoration:none;
+	padding:7px 120px;
+	font-size:13px;
+	font-family: arial, serif;
+	font-weight:bold;
+	-webkit-border-radius:3em;
+	-moz-border-radius:.1em;
+	-border-radius:.1em;
+}	
+</style>
 </head>
+
+
 <body>
-<h1>Page Not Found</h1>
-<p>Sorry, but the page you were trying to view does not exist.</p>
+	<div class="wrap">
+	   <div class="logo">
+	   <h1>404</h1>
+	    <p>Oeps foutje! - Bestand niet gevonden</p>
+  	      <div class="sub">
+	        <p><a href="home">Back</a></p>
+	      </div>
+        </div>
+	</div>	
 </body>
-</html>
-<!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
