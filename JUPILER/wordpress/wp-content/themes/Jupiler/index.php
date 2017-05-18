@@ -16,7 +16,6 @@
                     the_excerpt();
                     echo '<a href="' . get_permalink() . '">Lees meer...</a>';
                     echo '</article>';
-
                 }
             }
             else

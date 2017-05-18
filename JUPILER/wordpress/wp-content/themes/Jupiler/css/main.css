@@ -44,6 +44,13 @@ html a {
     font-weight: bold;
  }
 
+ #footertext {
+     font-weight: normal;
+     margin-left: 2.5em;
+     text-align: center;
+ }
+
+
  footer li {
     color: #222;
     font-size: 1em;

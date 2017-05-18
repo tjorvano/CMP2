@@ -69,3 +69,38 @@ function my_wp_nav_menu_args( $args = '' ) {
     return $args;
 }
 add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
+
+function mytheme_post_thumbnails() {
+    add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'mytheme_post_thumbnails' );
+
+// Our custom post type function
+function create_posttype() {
+    register_post_type( 'acties',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Acties' ),
+                'singular_name' => __( 'Actie' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'acties'),
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
+
+/*function custom_posts_per_page($query) {
+    if (is_page( $page = '23' )) {
+        $query->set('posts_per_page', 5);
+
+    }
+} 
+
+//this adds the function above to the 'pre_get_posts' action     
+add_action('pre_get_posts', 'custom_posts_per_page');
+*/

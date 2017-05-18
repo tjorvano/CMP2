@@ -18,8 +18,11 @@
                         echo '<a href="' . previous_post_link() . '"></a>';
                         comments_template();
                         echo get_post_meta(get_the_ID(), 'NAAM_CUSTOM_FIELD', true);
-                        echo '</article>';
-
+                        echo '</article>'; 
+                        if( has_post_thumbnail() ):
+                            echo get_the_post_thumbnail();
+                        endif; 
+?>
                     }
                 }
                 else

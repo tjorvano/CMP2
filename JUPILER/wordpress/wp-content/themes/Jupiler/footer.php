@@ -2,7 +2,8 @@
     <footer class="wrapper">
         <a href="<?php bloginfo('rss2_url'); ?>" target="_blank" class="footer-menu"><i class="fa fa-rss fa-2x" aria-hidden="true"> </i>Sociale media</a>
         <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
-
+        <a href="<?php echo get_page_link(115); ?>" id= "footertext">Disclaimer</a>
+        <a href="<?php echo get_page_link(112); ?>" id= "footertext">Privacy Policy</a>
     </footer>
 </div>
 
