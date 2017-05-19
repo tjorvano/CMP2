@@ -1,5 +1,11 @@
 
-<?php get_header(); ?>
+<?php
+/*
+ * Template Name: Actie
+ * Template Post Type: post, page, product
+ */
+ 
+ get_header();  ?>
 
     <div class="main-container">
         <div class="main wrapper clearfix">
@@ -22,7 +28,7 @@
                         if( has_post_thumbnail() ):
                             echo get_the_post_thumbnail();
                         endif; 
-
+?>
                     }
                 }
                 else
