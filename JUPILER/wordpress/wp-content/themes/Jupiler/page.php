@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+detailpagina - test
 <div class="main-container">
     <div class="main wrapper clearfix">
         <article>

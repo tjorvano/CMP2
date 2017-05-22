@@ -6,7 +6,7 @@
  */
  
  get_header();  ?>
-
+detailpagina cat actie
     <div class="main-container">
         <div class="main wrapper clearfix">
                 <?php
@@ -28,7 +28,7 @@
                         if( has_post_thumbnail() ):
                             echo get_the_post_thumbnail();
                         endif; 
-?>
+
                     }
                 }
                 else
