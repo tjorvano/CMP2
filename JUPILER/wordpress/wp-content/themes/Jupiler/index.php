@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-indexpage
     <div class="main-container">
         <div class="main wrapper clearfix">
 
@@ -7,6 +6,7 @@ indexpage
             <?php
             if(have_posts())
             {
+                get_template_part('partials/content');
                 while(have_posts())
                 {
                     the_post();
@@ -16,6 +16,8 @@ indexpage
                     the_excerpt();
                     echo '<a href="' . get_permalink() . '">Lees meer...</a>';
                     echo '</article>';
+
+                   
                 }
             }
             else

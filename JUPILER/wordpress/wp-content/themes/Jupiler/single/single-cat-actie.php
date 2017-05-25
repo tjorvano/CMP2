@@ -6,7 +6,6 @@
  */
  
  get_header();  ?>
-detailpagina cat actie
     <div class="main-container">
         <div class="main wrapper clearfix">
                 <?php

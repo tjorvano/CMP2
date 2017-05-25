@@ -27,7 +27,6 @@
     src: url(../fonts/Gamer.ttf);
 }
 
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 
 html {
@@ -123,6 +122,10 @@ hr {
     padding: 0;
 }
 
+#author {
+    font-style: italic;
+}
+
 audio,
 canvas,
 iframe,
@@ -150,10 +153,6 @@ textarea {
 }
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
@@ -167,9 +166,57 @@ body {
     margin: 0 5%;
 }
 
+.wpcf7-submit {
+    background: url(search-dark.png) no-repeat 10px 6px rgba(160, 30, 36,0.9);
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: white;
+    padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    transition: all 0.7s ease 0s;
+}
+
+#searchsubmit {
+    background: url(search-dark.png) no-repeat 10px 6px rgba(160, 30, 36,0.9);
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: white;
+    padding: 6px 15px 6px 15px;
+    border-radius: 0 20px 20px 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    transition: all 0.7s ease 0s;
+    
+}
+#s {
+    background: url(search-dark.png) no-repeat 10px 6px rgba(160, 30, 36,0.9);
+    border: 0 none;
+    font:  12px Arial,Helvetica,Sans-serif;
+    color: white;
+    width: 100px;
+    padding: 6px 15px 6px 35px;  
+    border-radius: 20px 0 0 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    transition: all 0.7s ease 0s;
+}
+
+#s:focus {
+    width: 150px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }
+
+.screen-reader-text {
+    color: black;
+}
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Theme
    =================== */
 
 .header-container {

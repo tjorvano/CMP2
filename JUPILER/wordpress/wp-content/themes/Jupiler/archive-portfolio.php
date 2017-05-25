@@ -1,10 +1,9 @@
 
 <?php get_header(); ?>
-portfolio archive
+
     <div class="main-container">
         <div class="main wrapper clearfix">
             <h1 class="pagetitle_article"><?php the_title(); ?></h1>
-
             <?php
             if(have_posts())
             {
@@ -20,6 +19,7 @@ portfolio archive
 
                 }
             }
+            
             else
             {
                 echo 'No content available';
